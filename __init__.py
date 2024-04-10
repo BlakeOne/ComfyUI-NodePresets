@@ -1,3 +1,4 @@
+# Placeholder class (unused)
 class NodePresets():
     @classmethod
     def INPUT_TYPES(s):
