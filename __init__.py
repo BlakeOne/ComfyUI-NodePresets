@@ -1,7 +1,7 @@
 class NodePresets():
     @classmethod
     def INPUT_TYPES(s):
-        return { "required": {) }
+        return { "required": {} }
     
     RETURN_TYPES = ("*",)
     CATEGORY = "NodePresets"    
