@@ -1,9 +1,4 @@
 class NodePresets():
-    OUTPUT_NODE = True
-    FUNCTION = "func"
-    CATEGORY = "NodePresets"
-    RETURN_TYPES = ()
-
     @classmethod
     def INPUT_TYPES(s):
         return {
@@ -11,8 +6,11 @@ class NodePresets():
                 "name": ("STRING", {"name": ""}),
             },
         }
-
-    RETURN_TYPES = ("*",)
+        
+    OUTPUT_NODE = True
+    FUNCTION = "func"
+    CATEGORY = "NodePresets"
+    RETURN_TYPES = ("*",)    
 
 NODE_CLASS_MAPPINGS = { "NodePresets": NodePresets }
 
