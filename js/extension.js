@@ -368,7 +368,7 @@ app.registerExtension({
 				callback: saveCallback
 			}, {
 				content: "Load",
-				disabled: !presetManager.presets[node.type],
+				disabled: !presetManager.presets[node.type]?.length,
 				submenu: {options: loadOptions}
 			}, {
 				content: "Manage",
