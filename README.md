@@ -1,5 +1,5 @@
 # ComfyUI NodePresets
-An extension for ComyUI that enables saving and loading node presets using the node's context menu.
+An extension for ComyUI that enables saving and loading node presets using the node's context menu. 
 
 # Usage
 Right click a node and choose "Presets" from its context menu to access the node's presets.
