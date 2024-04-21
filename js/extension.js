@@ -332,7 +332,11 @@ app.registerExtension({
 
 		const orig = LGraphCanvas.prototype.getNodeMenuOptions;
         LGraphCanvas.prototype.getNodeMenuOptions = function(node) {			
-			const options = orig.call(this, node);			
+			const options = orig.call(this, node);
+
+			if (!node.widgets) {
+				return options;
+			}
 
 			const loadOptions = presetManager.presets[node.type]?.map((preset) => ({
 				content: preset.name,
