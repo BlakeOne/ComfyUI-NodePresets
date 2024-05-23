@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-nodepresets"
+description = "An extension for ComyUI that enables saving and loading node presets using the node's context menu.\nRight click a node and choose 'Presets' from its context menu to access the node's presets."
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/BlakeOne/ComfyUI-NodePresets"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-NodePresets"
+Icon = ""
